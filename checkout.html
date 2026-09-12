@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Order Form ♡ Pastel Charms</title>
+  <meta name="description" content="Simple student-friendly order checkout for Pastel Charms handmade crafts. Free campus handoff!">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📦</text></svg>">
+</head>
+<body>
+
+  <div style="background: linear-gradient(90deg, #FDE8EF 0%, #E8DFF5 50%, #FFF1E6 100%); text-align: center; padding: 7px 14px; font-size: 0.84rem; font-weight: 700; color: #5B4743; border-bottom: 1px solid #F6DCE5;">
+    ✨ Free campus pickup & handoff for college students! Use code <span style="background: #FFFFFF; padding: 2px 8px; border-radius: 12px; color: #D46A85; border: 1px dashed #FAD2E1;">BESTIE10</span> for extra love ♡
+  </div>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Pastel Charms Home">
+        <span class="logo-sparkle">🌸</span>
+        <span class="logo-text">Pastel Charms <span>♡</span></span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link ">Home</a></li>
+          <li><a href="shop.html" class="nav-link ">Shop</a></li>
+          <li><a href="customize.html" class="nav-link ">Customize 💎</a></li>
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="shop.html" class="nav-icon-btn" title="Shop Catalog">
+          🛍️ Shop Now
+        </a>
+        <a href="checkout.html" class="btn btn-primary btn-sm" title="Order / Checkout">
+          📦 Order Form
+        </a>
+        
+        <details class="mobile-menu-details">
+          <summary class="mobile-menu-summary" aria-label="Toggle menu">☰</summary>
+          <div class="mobile-menu-dropdown">
+            <a href="index.html"><span>🏠</span> Home</a>
+            <a href="shop.html"><span>🛍️</span> Shop All Crafts</a>
+            <a href="customize.html"><span>💎</span> Bracelet Customizer</a>
+            <a href="index.html#about"><span>🎀</span> Our Story</a>
+            <a href="index.html#contact"><span>💌</span> Contact & WhatsApp</a>
+            <a href="checkout.html"><span>📦</span> Order Checkout</a>
+          </div>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section-padding" style="padding-top: 2.5rem;">
+    <div class="section-title-wrap" style="margin-bottom: 2rem;">
+      <span class="section-subtitle-pill">🌸 Campus Order Form</span>
+      <h1 class="section-title">Complete Your Order</h1>
+      <p class="section-desc">Quick & easy student order placement. We'll hand-make your treasures and coordinate handoff with you!</p>
+    </div>
+
+    <div class="checkout-grid">
+      <!-- Left Column: Student Details Form -->
+      <div class="checkout-card">
+        <div class="checkout-card-header">
+          <h2>Student & Delivery Details</h2>
+          <p>Tell us where on campus to hand off your handmade order ♡</p>
+        </div>
+
+        <form action="https://wa.me/919876543210" method="GET" target="_blank">
+          <div class="form-group">
+            <label for="order-name" class="form-label">Full Name <span class="required">*</span></label>
+            <input type="text" id="order-name" name="name" class="form-input" placeholder="e.g. Ananya Sharma" required>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label for="order-phone" class="form-label">WhatsApp Number <span class="required">*</span></label>
+              <input type="tel" id="order-phone" name="phone" class="form-input" placeholder="e.g. 9876543210" required>
+            </div>
+
+            <div class="form-group">
+              <label for="order-email" class="form-label">Email Address (optional)</label>
+              <input type="email" id="order-email" name="email" class="form-input" placeholder="e.g. ananya@college.edu">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="order-college" class="form-label">College / University <span class="required">*</span></label>
+            <select id="order-college" name="college" class="form-select" required>
+              <option value="" disabled selected>Select your College / University 🎓</option>
+              <option value="Delhi University (North / South Campus)">Delhi University (North / South Campus)</option>
+              <option value="IIT Delhi / IIT Bombay / IIT Madras">IIT Delhi / IIT Bombay / IIT Madras</option>
+              <option value="BITS Pilani / Goa / Hyderabad">BITS Pilani / Goa / Hyderabad</option>
+              <option value="Christ University, Bangalore">Christ University, Bangalore</option>
+              <option value="Manipal Academy of Higher Education (MAHE)">Manipal Academy of Higher Education (MAHE)</option>
+              <option value="SRM University / VIT Vellore / Chennai">SRM University / VIT Vellore / Chennai</option>
+              <option value="Mumbai University & Mithibai / NMIMS">Mumbai University & Mithibai / NMIMS</option>
+              <option value="Symbiosis International University, Pune">Symbiosis International University, Pune</option>
+              <option value="St. Xavier's College">St. Xavier's College</option>
+              <option value="Ashoka University">Ashoka University</option>
+              <option value="Amity University">Amity University</option>
+              <option value="Other / Local College">Other / Local College (Specify in spot)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="order-location" class="form-label">Campus Delivery Spot <span class="required">*</span></label>
+            <input type="text" id="order-location" name="location" class="form-input" placeholder="e.g. Girls Hostel Block B, Main Canteen, Gate 3..." required>
+            <span class="form-hint">Where on campus is most convenient for handoff?</span>
+          </div>
+
+          <div class="form-group">
+            <label for="order-items" class="form-label">Products to Order & Customization Notes <span class="required">*</span></label>
+            <textarea id="order-items" name="order_details" class="form-textarea" rows="3" placeholder="e.g. 1x Custom Name Bracelet ('ANANYA' in Blush Pink with Heart charm), 1x Pipe Cleaner Tulip Bouquet" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Payment Preference</label>
+            <div class="payment-options-grid">
+              <label class="payment-option-pill">
+                <input type="radio" name="payment_choice" value="Cash on Campus Delivery" checked>
+                <span>Pay on Delivery (Cash / UPI)</span>
+              </label>
+              <label class="payment-option-pill">
+                <input type="radio" name="payment_choice" value="Instant UPI via WhatsApp">
+                <span>UPI via WhatsApp</span>
+              </label>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 0.75rem;">
+            <button type="submit" class="btn btn-primary btn-block" style="padding: 1.1rem; font-size: 1.05rem;">
+              Place Order on WhatsApp ♡
+            </button>
+            <a href="https://wa.me/919876543210?text=Hi%20Pastel%20Charms!%20I%20want%20to%20place%20an%20order%20♡" target="_blank" class="btn btn-secondary btn-block">
+              💬 Direct WhatsApp Chat
+            </a>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right Column: Order Summary Card -->
+      <div>
+        <div class="checkout-card" style="position: sticky; top: 100px;">
+          <div class="checkout-card-header" style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h2>Popular Items</h2>
+            <a href="shop.html" style="font-size: 0.85rem; color: var(--pastel-rose); font-weight: 700;">View All</a>
+          </div>
+
+          <div class="checkout-item-row">
+            <div class="checkout-item-left">
+              <div class="checkout-item-thumb">
+                <img src="https://images.unsplash.com/photo-1611591475155-42e9fba5ce55?auto=format&fit=crop&w=120&q=80" alt="Custom Name Bead Bracelet">
+              </div>
+              <div>
+                <div class="checkout-item-title">Custom Name Bracelet</div>
+                <div class="checkout-item-specs">Letters + Pastel Beads + Charm</div>
+              </div>
+            </div>
+            <div class="checkout-item-price">₹50</div>
+          </div>
+
+          <div class="checkout-item-row">
+            <div class="checkout-item-left">
+              <div class="checkout-item-thumb">
+                <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=120&q=80" alt="Pipe Cleaner Tulip Bouquet">
+              </div>
+              <div>
+                <div class="checkout-item-title">Fluffy Tulip Bouquet</div>
+                <div class="checkout-item-specs">3 Everlasting Velvet Tulips</div>
+              </div>
+            </div>
+            <div class="checkout-item-price">₹75</div>
+          </div>
+
+          <div class="checkout-item-row">
+            <div class="checkout-item-left">
+              <div class="checkout-item-thumb">
+                <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=120&q=80" alt="Handmade Ribbon Rose">
+              </div>
+              <div>
+                <div class="checkout-item-title">Handmade Ribbon Rose</div>
+                <div class="checkout-item-specs">Folded Satin Keepsake Rose</div>
+              </div>
+            </div>
+            <div class="checkout-item-price">₹35</div>
+          </div>
+
+          <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border-light);">
+            <div style="display: flex; justify-content: space-between; font-size: 0.95rem; margin-bottom: 0.8rem; color: var(--text-secondary);">
+              <span>Campus Delivery:</span>
+              <span style="font-weight: 700; color: #2F7A5E;">FREE 🌸</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; font-size: 1.15rem; font-weight: 800; color: var(--text-dark); padding-top: 0.8rem; border-top: 1px dashed var(--border-light);">
+              <span>Payment:</span>
+              <span style="color: var(--pastel-rose);">Cash / UPI on Handoff</span>
+            </div>
+          </div>
+
+          <div style="background: #FAF7F2; border-radius: 16px; padding: 1rem; margin-top: 1.5rem; font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
+            🌸 <strong>Handmade Promise:</strong> Every piece is carefully assembled and packed with complimentary aesthetic stickers. We'll message you on WhatsApp to confirm timing!
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            Pastel Charms <span>♡</span>
+          </div>
+          <p class="footer-desc">
+            Handmade with love, made just for you. Cute bracelets, forever flowers, and aesthetic gifts for college students.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" class="social-circle" title="Instagram">📸</a>
+            <a href="https://wa.me/919876543210" target="_blank" class="social-circle" title="WhatsApp">💬</a>
+            <a href="mailto:hello.pastelcharms@gmail.com" class="social-circle" title="Email">✉️</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links-list">
+            <li><a href="shop.html#bracelets">💎 Custom Bracelets</a></li>
+            <li><a href="shop.html#pipe-flowers">🌸 Pipe Cleaner Flowers</a></li>
+            <li><a href="shop.html#roses">🌹 Handmade Roses</a></li>
+            <li><a href="shop.html#custom-gifts">🎀 Custom Gift Bundles</a></li>
+            <li><a href="shop.html#crafts">✨ Cute Crafts & Charms</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="customize.html">Custom Bracelet Studio</a></li>
+            <li><a href="shop.html">Full Catalog</a></li>
+            <li><a href="index.html#about">Our Story</a></li>
+            <li><a href="index.html#contact">Campus Delivery Details</a></li>
+            <li><a href="checkout.html">Order Form</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Campus Promise 🌸</h4>
+          <p style="font-size: 0.88rem; color: #B5ABA4; line-height: 1.6; margin-bottom: 1rem;">
+            Affordable student pricing (₹35–₹120), safe elastic stretch, and free stickers with every order.
+          </p>
+          <span style="font-size: 0.8rem; background: #3C2E2D; padding: 6px 12px; border-radius: 20px; color: #F8B4C9; border: 1px solid #4D3C3B;">
+            ♡ Student-run & loved
+          </span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Pastel Charms. Handmade with love & care ♡ All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
