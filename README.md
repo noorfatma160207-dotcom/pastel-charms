@@ -4,7 +4,7 @@
 
   <br/>
 
-  [![Live Demo](https://img.shields.io/badge/Live_Demo-Online-FF69B4?style=for-the-badge&logo=google-chrome&logoColor=white)]([YOUR_DEPLOYED_URL_HERE])
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-Online-FF69B4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://noorfatma160207-dotcom.github.io/pastel-charms/)
   [![Frontend](https://img.shields.io/badge/Stack-HTML5%20%7C%20CSS3%20%7C%20JS%20(ES6+)-7C3AED?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   [![License](https://img.shields.io/badge/License-MIT-3B82F6?style=for-the-badge)](LICENSE)
 
